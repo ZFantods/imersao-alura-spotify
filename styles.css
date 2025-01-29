@@ -11,20 +11,20 @@ body {
   width: 300px;
 }
 
-.sidebar-navegation {
+.sidebar-navigation {
   background-color: #121212;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
 
-.sidebar-navegation .logo {
+.sidebar-navigation .logo {
   background: #121212;
   border-radius: 8px;
   display: flex;
   padding: 16px 0 0 16px;
 }
 
-.sidebar-navegation .logo img {
+.sidebar-navigation .logo img {
   width: 80px;
 }
 
