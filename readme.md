@@ -30,4 +30,29 @@ No momento, o projeto é focado apenas em **HTML e CSS**, contendo elementos com
 
 ## 📌 Como Visualizar o Projeto
 
-Acesse este link para visualizar o projeto: [https://zfantods.github.io/imersao-alura-spotify/](https://zfantods.github.io/imersao-alura-spotify/)
+### 1. 
+- Acesse este link para visualizar o projeto: [https://zfantods.github.io/imersao-alura-spotify/](https://zfantods.github.io/imersao-alura-spotify/)
+
+### 2.
+- Abra o terminal e digite:
+
+```bash
+json-server --version
+``` 
+### 3. Primeiro, remova a versão atual com o comando:
+
+```bash
+npm uninstall -g json-server
+```
+
+### 4.Agora, instale a versão correta:
+
+```bash
+npm install -g json-server@0.17
+``` 
+
+### 5. Depois, execute o comando:
+
+```bash
+json-server --watch api-artists/artists.json --port 3000 
+```
