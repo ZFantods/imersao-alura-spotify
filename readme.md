@@ -11,6 +11,7 @@ Este projeto foi desenvolvido durante uma imersão da Alura, com o objetivo de r
 - **Aula 2** Criar Biblioteca e idioma, estilização do botão e texto.
 - **Aula 3** Utilização de variáveis CSS, incrementação de tamanho de fonte, utilização de media queries, navegação por pesquisa.
 - **Aula 4** Utilização de DOM, api local e outros.
+- **Aula 5** Utilização de Framework ReactJS.
 
 
 ## 🛠️ Tecnologias Utilizadas
