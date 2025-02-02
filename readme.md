@@ -16,17 +16,15 @@ Este projeto foi desenvolvido durante uma imersão da Alura, com o objetivo de r
 
 ## 🛠️ Tecnologias Utilizadas
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="64"/><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="64"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node.js" width="64"/>
 
+# Descrição do Projeto
 
-## 🖼️ Prévia do Projeto
-
-No momento, o projeto é focado apenas em **HTML e CSS**, contendo elementos como:
-
-- Um Menu lateral com links para a página inicial, busca e a sua biblioteca.
-- Uma barra lateral com o logotipo do Spotify.
-
-
+- O projeto da imersão foi desenvolvido com o objetivo de replicar a interface do Spotify utilizando HTML e CSS, além da framework ReactJS.
 
 ## 📌 Como Visualizar o Projeto
 
@@ -36,22 +34,38 @@ No momento, o projeto é focado apenas em **HTML e CSS**, contendo elementos com
 ### 2.
 - Abra o terminal e digite:
 
+### 3.
+
+- Tenha o node instalado na sua maquina, caso ainda não tenha:
+
+```bash
+node -v
+```
+
+Caso não tenha, instale o node:
+
+```bash
+npm install -g node
+```
+
+Depois, verifique se o node está instalado corretamente:    
+
 ```bash
 json-server --version
 ``` 
-### 3. Primeiro, remova a versão atual com o comando:
+### 4. Primeiro, remova a versão atual com o comando:
 
 ```bash
 npm uninstall -g json-server
 ```
 
-### 4.Agora, instale a versão correta:
+### 5.Agora, instale a versão correta:
 
 ```bash
 npm install -g json-server@0.17
 ``` 
 
-### 5. Depois, execute o comando:
+### 6. Depois, execute o comando:
 
 ```bash
 json-server --watch api-artists/artists.json --port 3000 
